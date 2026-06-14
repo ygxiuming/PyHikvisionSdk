@@ -1,0 +1,19 @@
+# Force LF for all text files (cross-platform consistency)
+* text=auto eol=lf
+
+# Always keep binary files as-is
+*.dll binary
+*.so binary
+*.so.* binary
+*.lib binary
+*.exe binary
+*.dat binary
+*.zip binary
+*.pdf binary
+*.jpg binary
+*.png binary
+*.gif binary
+*.ico binary
+*.mp4 binary
+*.h264 binary
+*.h265 binary

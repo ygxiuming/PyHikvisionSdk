@@ -1,0 +1,34 @@
+MIT License
+
+Copyright (c) 2024 ygxiuming
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+NOTE: This MIT license applies ONLY to the Python source code in this
+repository. The bundled native libraries under `sdk/win/` and `sdk/linux/`
+(`*.dll`, `*.so`, `*.h`, etc.) are the property of Hangzhou Hikvision Digital
+Technology Co., Ltd. and remain subject to the Hikvision SDK End User License
+Agreement (EULA). Their inclusion here is for development convenience only.
+Consult Hikvision's terms before commercial redistribution.
+
+注意：本 MIT 许可证仅适用于本仓库中的 Python 源代码。
+捆绑在 `sdk/win/` 与 `sdk/linux/` 目录下的原生库文件
+（`*.dll`、`*.so`、`*.h` 等）版权归海康威视所有，须遵循海康 SDK EULA。

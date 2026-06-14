@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+.env
+
+# 编辑器
+.vscode/
+.idea/
+
+# 日志和临时输出
+SdkLog_Python/
+*.log
+out_jpgs/
+*.h264
+*.h265
+*.ts
+*.mp4
+!demo/*.mp4
+
+# 海康 SDK 原始解压目录（按用户约定后续会删除）
+CH-HCNetSDKV*_build*_*/
+
+# CodeGraph 本地索引（仅本机使用，不入仓）
+.codegraph/
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# 海康 SDK 运行时生成的本地配置（首次 init 时会自动写入）
+sdk/win/DemoLocalCfg.json
+sdk/win/DeviceCfg.json
+sdk/linux/DemoLocalCfg.json
+sdk/linux/DeviceCfg.json
